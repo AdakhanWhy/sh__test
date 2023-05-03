@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    min-width: 320px;
+
+    position: relative;
+
+    background: linear-gradient(120deg, white, yellow, orange, green, black);
+
+    /* animation-name: hello; */
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hello{
+    0%{
+        background-color: black;
+    }
+    10%{
+        background-color: grey;
+    }
+    20%{
+        background-color: aqua;
+    }
+    30%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    60%{
+        background-color: blueviolet;
+    }
+    70%{
+        background-color: burlywood;
+    }
+    80%{
+        background-color: brown;
+    }
+    90%{
+        background-color: navy;
+    }
+    100%{
+        background-color: red;
+    }
+}
